@@ -2,9 +2,11 @@
 </script>
 
 <template>
-  <main>
-    <RouterView />
-  </main>
+  <div>
+    <h1>Home</h1>
+
+    <RouterLink to="/login">Login</RouterLink>
+  </div>
 </template>
 
 <style scoped></style>
